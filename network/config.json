@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Dickson Lai"
+  },
+  "text": {
+    "more": "This chart shows the network of projects and investors that are linked, up to 2 degrees of separation, to DCG\u0027s investments.\n\nFor example, DCG is one of the investors in the Seed round for Project X together with another investor, Investor Y. This relationship will be represented in the chart by DCG -\u003e Project X \u003c- Investor Y, where the arrow represents the direction of capital flow.",
+    "intro": "This chart shows the network of projects and investors that are linked, directly or indirectly, to DCG\u0027s investments.",
+    "title": "The DCG Contagion"
+  },
+  "legend": {
+    "edgeLabel": "Capital Raise",
+    "colorLabel": "Groupings",
+    "nodeLabel": "Projects/Investors"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
