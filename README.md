@@ -1,4 +1,4 @@
-# Analysing the DGC Contagion Effect
+# Analysing the DCG Contagion Effect
 
 ## About the Project
 
